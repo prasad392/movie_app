@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./wheather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="./wheather.js" defer></script>
+    <title> Wheather app</title>
+</head>
+<body>
+    <div class="container">
+        <h2> <i class="fa-solid fa-cloud"></i> Wheather App</h2>
+
+        <div class="data">
+            <input type="text" placeholder="Enter city" id="inputtext">
+            <button id="getWeather">Submit</button>
+        </div>
+
+        <div id="wheatherData">
+            <p> <i class="fa-solid fa-building"></i> City: <span id="spancity"></span></p>
+            <p> <i class="fa-solid fa-temperature-low"></i> Temperature: <span id="spantemp"></span></p>
+            <p> <i class="fa-solid fa-gauge-simple"></i> Wind Speed: <span id="spanwind"></span></p>
+            <p> <i class="fa-solid fa-bolt"></i> Wheather: <span id="spanwheather"></span></p>
+            <p> <i class="fa-solid fa-moon"></i> Humidity: <span id="spanhumid"></span></p>
+        </div>
+        <div class="resetbtn">
+            <button id="resetbutton">Reset</button>
+        </div>
+    </div>
+</body>
+</html>

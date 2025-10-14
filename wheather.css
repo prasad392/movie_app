@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e0fbfc;
+}
+.container{
+    margin: 10px auto;
+    width: 40%;
+    height: 70vh;
+    border: 2px solid #3e3e3e;
+    background-color: #98c1d9;
+    border-radius: 6px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.data input{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+.data button{
+    width: 55px;
+    height: 33px;
+    border: none;
+    border-radius: 6px;
+    background-color: #52b788;
+    font-weight: 600;
+}
+#wheatherData{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#wheatherData p{
+    width: 200px;
+    border: 2px solid #3e3e3e;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+#wheatherData p:nth-child(odd){
+    background-color: #aeb8fe;
+}
+#wheatherData p:nth-child(even){
+    background-color: #b7e4c7;
+}
+.resetbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resetbtn button{
+    padding: 5px;
+    width: 70px;
+    background-color: #ee964b;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
